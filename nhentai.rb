@@ -4,8 +4,8 @@ browser = Watir::Browser.new :chrome, switches: ['--incognito']
 browser.goto 'https://nhentai.net/login/'
 browser.window.maximize
 sleep(1)
-browser.text_field(:name => 'username_or_email').set 'YOUR_USERNAME'
-browser.text_field(:name => 'password').set 'YOUR_PASSWORD'
+browser.text_field(:name => 'username_or_email').set 'Clebissom'
+browser.text_field(:name => 'password').set 'Panela123'
 sleep(1)
 browser.button(:class => ['button', 'button-wide']).click
 
